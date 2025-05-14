@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Page</title>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to CleanAir Registration</h1>
+  </header>
+
+  <!-- Ordered List with Roman Numerals -->
+  <section>
+    <h2>Steps to Register</h2>
+    <ol type="I">
+      <li>Fill in your details</li>
+      <li>Choose your interests</li>
+      <li>Submit the form</li>
+      <li>Get verified</li>
+    </ol>
+  </section>
+
+  <!-- External Image from Pexels -->
+  <section>
+    <h2>Our Mission</h2>
+    <img 
+      src="https://images.pexels.com/photos/4207785/pexels-photo-4207785.jpeg" 
+      alt="Nature and clean air" 
+      width="600" 
+      height="400"
+    />
+  </section>
+
+  <!-- Table of 5 Contacts -->
+  <section>
+    <h2>Contact Directory</h2>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jane Doe</td>
+          <td>123 Green Ave</td>
+          <td>+234-701-123-4567</td>
+          <td>jane.doe@example.com</td>
+        </tr>
+        <tr>
+          <td>John Smith</td>
+          <td>456 Eco Street</td>
+          <td>+234-802-234-5678</td>
+          <td>john.smith@example.com</td>
+        </tr>
+        <tr>
+          <td>Mary Johnson</td>
+          <td>789 Blue Sky Blvd</td>
+          <td>+234-803-345-6789</td>
+          <td>mary.j@example.com</td>
+        </tr>
+        <tr>
+          <td>Robert Lee</td>
+          <td>101 Airway Drive</td>
+          <td>+234-904-456-7890</td>
+          <td>robert.lee@example.com</td>
+        </tr>
+        <tr>
+          <td>Linda Brown</td>
+          <td>202 Freshwind Rd</td>
+          <td>+234-705-567-8901</td>
+          <td>linda.b@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Registration Form -->
+  <section>
+    <h2>Register Now</h2>
+    <form action="#" method="post">
+      <!-- Name -->
+      <label for="name">Full Name:</label><br/>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required /><br/><br/>
+
+      <!-- Email -->
+      <label for="email">Email:</label><br/>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required /><br/><br/>
+
+      <!-- Password -->
+      <label for="password">Password:</label><br/>
+      <input type="password" id="password" name="password" placeholder="Enter password" required minlength="6" /><br/><br/>
+
+      <!-- Date -->
+      <label for="dob">Date of Birth:</label><br/>
+      <input type="date" id="dob" name="dob" required /><br/><br/>
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br/>
+      <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="kenya">Kenya</option>
+        <option value="ghana">Ghana</option>
+        <option value="southafrica">South Africa</option>
+      </select><br/><br/>
+
+      <!-- Radio Buttons -->
+      <label>Gender:</label><br/>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label><br/>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br/><br/>
+
+      <!-- Checkboxes -->
+      <label>Interests:</label><br/>
+      <input type="checkbox" id="ai" name="interests" value="AI" />
+      <label for="ai">Artificial Intelligence</label><br/>
+      <input type="checkbox" id="iot" name="interests" value="IoT" />
+      <label for="iot">Internet of Things</label><br/>
+      <input type="checkbox" id="data" name="interests" value="Data" />
+      <label for="data">Data Analysis</label><br/><br/>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Submit Registration" />
+    </form>
+  </section>
+
+  <!-- Multimedia Elements -->
+  <section>
+    <h2>Learn About Air Quality</h2>
+    <!-- Audio -->
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio><br/><br/>
+
+    <!-- Video -->
+    <video width="480" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact us at: info@cleanair.com | &copy; 2025 CleanAir Team</p>
+  </footer>
+
+</body>
+</html>
